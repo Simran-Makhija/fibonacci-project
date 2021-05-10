@@ -1,0 +1,10 @@
+#Displaying fibonacci number series on screen
+x=int(input("Enter Number:"))
+a=0
+b=1
+c=0
+while(c<=x):
+    print(c)
+    a=b
+    b=c
+    c=a+b
